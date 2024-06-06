@@ -1,0 +1,176 @@
+*{
+    overflow: auto;  /* Permet de réadapter la taille du contenaire pour gérer tout ce qui deborde*/
+}
+
+body{
+    background-color: #8BA1BB;
+    font-family: Arial;
+}
+
+p.categorie{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 8px 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+    
+}
+
+div.contenu{
+
+    background-color: white;
+    margin: 0px 10% 80px 10%; 
+    padding: 30px; 
+    min-width: 380px;
+    box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+
+p.description{
+
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.description{
+
+    text-align: center;
+    width: 100%;
+
+}
+
+div.categorie{
+
+    text-align: center;
+    padding-bottom: -15px;
+}
+div.centre{
+    margin-bottom: -20px;
+}
+
+div.separateur{
+    height: 1px; /*La hauteur ou largeur*/
+    width: 100px; /*La longueur*/
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div.info{
+
+    position: relative;
+
+}
+
+table.info{
+
+    
+    bottom: 0px;
+    width: 100%;
+    color: white; 
+    background-color: #6C829DC0;
+    height: 100px;
+
+}
+
+table.info td{  /* Dans table de la classe info, on applique ce style sur tous les td*/
+    text-align: center;
+    font-size: 14px;
+    vertical-align: top;  /*Que le texte soit au-dessus*/
+}
+
+table.info th{
+    font-size: 16px;
+    vertical-align: bottom;
+    padding-bottom: 8px;
+}
+
+img.info{
+    display: block;
+    max-height: 400px;
+    object-fit: cover;
+    min-height: 200px;
+    background-color: aqua;
+}
+
+div.colonne1{
+    width: 45%;
+    display: inline-block;
+    margin-right: 10%;
+}
+
+div.colonne2{
+    float: right;  /*Que la colonne2 s'affiche */
+    width: 45%;
+}
+
+.colonne h2{  /* Va nous permettre d'appliquer du style commun dans nos 2 colonnes et plus dans les h2*/
+    text-align: center;
+    text-transform: uppercase;  /*Mettre le texte en majuscule*/
+    font-size: 15px;
+    border-bottom: 10px solid #6C829D;
+    padding-bottom: 5px;
+
+}
+
+div.colonne{
+    margin-top: 20px;
+    
+}
+
+.aliment p{
+
+    /*border-left: 2px solid #6C829D;
+    border-right: 2px solid #6C829D;
+    border-bottom: 8px solid #6C829D;
+    border-top: 8px solid #6C829D;*/
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    padding: 8px 0;
+    margin-top: 4px;
+    margin-bottom: 0;
+
+}
+
+table.preparation td.numero{
+
+    background-color: #6C829D;
+    color: white;
+    width: 25px;
+    text-align: center;
+    height: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+
+}
+
+table.preparation td{
+    vertical-align: top;
+}
+
+table.preparation td.etape{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+table.preparation tr{
+    height: 40px;  /*Si on agrandit et qu'on diminue l'ecran, 
+    qu'il n'ait pas de debordement ... c'est comparable au min-height et au max-height*/
+}
+
